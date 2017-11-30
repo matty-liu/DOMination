@@ -1,0 +1,15 @@
+body {
+  width: 90%;
+}
+
+.introHTML {
+  display: block;
+  white-space: pre-wrap;
+  margin: 10px;
+}
+
+.tagsHTML {
+  display: block;
+  white-space:  nowrap;
+  margin: 0;
+}
