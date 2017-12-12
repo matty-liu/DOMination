@@ -128,10 +128,10 @@ divs.on('click',()=>console.log('hi'))
 ```
 
 #### 8) `DOMNodeCollection.on(event, callback)`
-We can add event listeners to our target by,
+We can remove event listeners to our target by,
 ```js
 divs.off('click')
-// #-> prints hello on console when dive element is clicked
+// #-> prints hi will no longer show in console when div element is clicked
 ```
 
 ---
@@ -139,7 +139,7 @@ divs.off('click')
 #### 9) `DOMNodeCollection.ajax(options)`
 We can lastly make AJAX calls with DOMination. We do this by
 ```js
-divs.ajax()
+$grab.ajax()
 // #-> will make a GET request
 ```
 
