@@ -139,7 +139,7 @@ divs.off('click')
 #### 9) `DOMNodeCollection.ajax(options)`
 We can lastly make AJAX calls with DOMination. We do this by
 ```js
-$grab.ajax()
+$make.ajax()
 // #-> will make a GET request
 ```
 
